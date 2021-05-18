@@ -10382,7 +10382,12 @@ a.text-dark:focus, a.text-dark:hover {
     border-color: #dee2e6;
   }
 }
+@font-face {
+  font-family: fomt-5;
+  src: url(../fonts/Cairo-Regular.ttf);
+}
 body {
+  font-family: "fomt-5";
   background-color: aqua;
 }
 
@@ -10391,4 +10396,9 @@ h1 {
   background-color: bisque;
   border: 4px solid red;
   padding: 20px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
 }
