@@ -1,0 +1,28 @@
+{
+  "name": "books-house",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack serve --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@laylazi/bootstrap-rtl": "^4.6.0-1",
+    "css-loader": "^5.2.4",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "jquery": "^3.6.0",
+    "mini-css-extract-plugin": "^1.6.0",
+    "popper.js": "^1.14.3",
+    "sass": "^1.32.13",
+    "sass-loader": "^11.1.1",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {}
+}
