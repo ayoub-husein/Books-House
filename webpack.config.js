@@ -69,7 +69,7 @@ module.exports ={
 
     devServer: {
         contentBase: path.join(__dirname, 'build'),
-        port: 9800,
+        port: 9801,
         writeToDisk: true,
         stats: 'errors-only',
         // open: true,

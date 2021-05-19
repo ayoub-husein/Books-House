@@ -31,7 +31,7 @@ body{
                     font-weight: bold;
                     margin-left: 13px;
                     &:hover{
-                        color: #000;
+                        color: $header-color-main;
                         background-color: #F7F8F3;
                     }
                 }
@@ -48,11 +48,11 @@ section.who-are-we{
         text-align: center;
         font-size: 30px;
         font-weight: bold;
-        color: #000;
+        color: $header-color-main;
         margin-bottom: 30px;
     }
     p{
-        color: #000;
+        color: $paragraph-color-main;
         font-size: 20px;
         line-height: 160%;
     }
@@ -65,7 +65,7 @@ section.Books{
         text-align: center;
         font-size: 30px;
         font-weight: bold;
-        color: #000;
+        color: $header-color-main;
         margin-bottom: 50px;
     }
     .image-boks{
@@ -88,7 +88,7 @@ section.Connect-with-us{
         text-align: center;
         font-size: 30px;
         font-weight: bold;
-        color:#000;;
+        color:$header-color-main;
         margin-bottom: 50px;
     }
     div.map{
@@ -100,7 +100,7 @@ section.Connect-with-us{
     }
     h4{
         font-size: 17px;
-        color: #000;
+        color: $header-color-main;
         font-weight: bold;
     }
     div{
@@ -121,7 +121,7 @@ section.Connect-with-us{
             font-size: 14px;
             transition: all .3s ease;
             padding: 6px 16px 7px;
-            color: #868686;
+            color: $paragraph-color-main;
             &:focus{
                 outline: none !important;
                 border-color: #719ECE;
@@ -139,7 +139,7 @@ section.Connect-with-us{
             font-size: 14px;
             transition: all .3s ease;
             padding: 6px 16px 7px;
-            color: #868686;
+            color: $paragraph-color-main;
             &:focus{
                 outline: none !important;
                 border-color: #719ECE;
@@ -161,7 +161,7 @@ footer{
         #copyright{
             font-size: 19px;
             font-weight: bold;
-            color: #868686;
+            color: $paragraph-color-main;
             float: right;
         }
         .social{
@@ -180,7 +180,7 @@ footer{
                 &:hover, 
                 &:focus,
                 &:active{
-                    background-color: #000;
+                    background-color: $header-color-main;
                 }
             }
         }

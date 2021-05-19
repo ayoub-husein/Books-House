@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>العمل الحر</title>
+    <title>تجربة المستخدم</title>
 </head>
 <body>
+
     <!-- start navigation -->
     <div class="container-fluid">
         <div class="navigation fixed-top">
-            <a href="#" class="logo">
+            <a href="index.html" class="logo">
                 <img src="/images/logo.png" alt="logo-image">
             </a>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -43,14 +44,14 @@
                 </div>
                 <div class="col-md-6 description">
                     <hr>
-                    <h3>مدخل إلى تجربة المستخدم (User Experience - UX)</h3>
+                    <h3 class="header-User-Experience-UX">مدخل إلى تجربة المستخدم (User Experience - UX)</h3>
                     <hr>
-                    <p>
+                    <p class="paragraph-User-Experience-UX">
                         يضع هذا الكتاب المُوجز القارئ على أعتاب عالم تصميم تجربة المُستخدمين UX،
                         وهو علم له قواعده وأصوله وأدواته،                 
                     </p>
                     <hr>
-                    <p>
+                    <p class="paragraph-User-Experience-UX">
                         يبدأ الكتاب بشرح مفاهيم عامة عن تجربة المستخدم ليواصِل مع شرح كيفية إجراء 
                         مختلف الدراسات التي يحتاج المصمِّم للقيام بها، ومتطلباتها، ثم الأمور 
                         الواجب أخذها بالحسبان عند التصميم لضمان تجربة استخدام مريحة وممتازة، 
@@ -101,13 +102,13 @@
     <!-- start order -->
     <section class="cart">
         <table id="cart">
-            <label for="cart">طلبك</label>
+            <label for="cart" class="header-User-Experience-UX">طلبك</label>
             <hr>
             <thead>
                 <tr>
-                    <td>المنتج</td>
-                    <td>الأسم</td>
-                    <td>السعر</td>
+                    <td class="header-User-Experience-UX">المنتج</td>
+                    <td class="header-User-Experience-UX">الأسم</td>
+                    <td class="header-User-Experience-UX">السعر</td>
                 </tr>
             </thead>
             <tbody>
@@ -116,7 +117,7 @@
                         <div><img src="images/second-book/img--1.png" alt="مدخل إلى تجربة المستخدم (User Experience - UX)"></div>
                     </td>
                     <td>
-                        <div>مدخل إلى تجربة المستخدم (User Experience - UX)</div>
+                        <p class="paragraph-User-Experience-UX">مدخل إلى تجربة المستخدم (User Experience - UX)</p>
                     </td>
                     <td>
                         <div>20$</div>
@@ -130,10 +131,10 @@
     
     <!-- start form payment -->
     <section class="payment">
-        <form>
+        <form action="#">
             <div class="row">
                 <div class="col-md-6">
-                    <h4>بياناتك الشخصية</h4>
+                    <h4 class="header-User-Experience-UX">بياناتك الشخصية</h4>
                     <div class="row">
                         <div class="col-md-6 form-group ">
                             <input type="text" name="first-name" placeholder="الأسم الأول" required>
@@ -165,16 +166,16 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <h4>بيانات الدفع</h4>
+                    <h4 class="header-User-Experience-UX">بيانات الدفع</h4>
                     <div class="row">
                         <div class="col-md-6 form-group">
-                            <input type="text" placeholder="رقم البطاقة" name="credit_card_number" required>
+                            <input type="number" placeholder="رقم البطاقة" name="credit_card_number" required>
                         </div>
                         <div class="col-md-6 form-group">
-                            <input type="number" placeholder="شهر الانتهاء" name="credit_card_expiration_month" min="1" max="12" required>
+                            <input type="number" placeholder="شهر الانتهاء" name="credit_card_month" min="1" max="12" required>
                         </div>
                         <div class="col-md-6 form-group">
-                            <input type="number" placeholder="سنة الانتهاء" name="credit_card_expiration_year" min="2018" max="2030" required>
+                            <input type="number" placeholder="سنة الانتهاء" name="credit_card_year" min="2021" max="2030" required>
                         </div>
                         <div class="col-md-6 form-group">
                             <input type="number" placeholder="cvv" name="credit_card_cvv" required>
@@ -210,5 +211,6 @@
             <p></p>
         </div>
     </footer>
+
 </body>
 </html>

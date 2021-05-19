@@ -6,13 +6,13 @@ header{
     }
     .description{
         h3{
-            color: $text-color;
+            color: $header-1-color;
             font-size: 20px;
             font-weight: bold;
             margin: 45px 0 27px;
         }
         p{
-            color: #212925;
+            color: $paragraph-1-color;
             font-size: 20px;
         }
     }
@@ -67,7 +67,7 @@ section.cart{
     padding: 50px;
     margin: 50px 0;
     label{ 
-        color:#928886;
+        color:$header-1-color;
         font-size: 23px;
         font-weight: bold;
     }
@@ -75,7 +75,7 @@ section.cart{
         width: 100%;
         thead{
             td{
-                color: #928886;
+                color: $header-1-color;
                 padding-bottom: 25px;
                 text-align: center;
             }
@@ -83,7 +83,7 @@ section.cart{
         tbody{
             td{
                 border-top: 1px solid rgba(0, 0, 0, 0.1);
-                color: #212925;
+                color: $paragraph-1-color;
                 text-align: center;
                 div{
                     img{
@@ -100,13 +100,13 @@ section.payment{
     padding: 50px;
     margin: 50px;
     h4{
-        color: $text-color;
+        color: $header-1-color;
         font-size: 20px;
         font-weight: bold;
         margin: 45px 0 27px;
     }
     input{
-        color: #928886;
+        color: $paragraph-1-color;
         text-align: right;
         width: 100%;
         border: 1px solid #ebebeb;
