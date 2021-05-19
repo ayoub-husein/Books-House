@@ -122,3 +122,26 @@ section.payment{
         }
     }
 }
+
+@media (max-width: 1199.5px) {
+    header .description h3{
+        margin: 0px 0px;
+    }
+    header {
+        padding: 0px;
+        margin: 120px 40px;
+    }
+    footer .background #copyright {
+        margin-top: 4px;
+    }
+}
+
+
+@media (max-width: 767.5px) {
+    section.cart {
+        margin: 50px 0px 0px;
+    }
+    section.payment {
+        margin: 0px 50px 0px;
+    }
+}

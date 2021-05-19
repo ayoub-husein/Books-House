@@ -186,3 +186,35 @@ footer{
         }
     }
 }
+
+@media (max-width: 991.5px) {
+    section.Books {
+        margin: 0px 50px;
+    }
+    section.Connect-with-us {
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    section.Books h3{
+        margin-bottom: 22px;
+    }
+    section.Books {
+        margin: -22px;
+    }
+    section.Connect-with-us h4.message{
+        margin-top: 30px;
+    }
+    section.Connect-with-us{
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 575.5px) {
+    footer .background #copyright {
+        font-size: 13px;
+        margin-top: 9px;
+    }
+}
+
