@@ -56,6 +56,14 @@ module.exports ={
                   }
                 ]
             },
+
+            {
+                test: require.resolve("jquery"),
+                loader: "expose-loader",
+                options: {
+                  exposes: ["$", "jQuery"],
+                },
+            },
         ],
     },
 
@@ -86,7 +94,7 @@ module.exports ={
 
         new MiniCssExtractPlugin({
             filename: 'css/style.css',
-        })
+        }),
     ]
     
 };

@@ -19,32 +19,40 @@ body{
     nav{
         width: calc(100% - 80px);
         ul{
+            li.active a.nav-link{
+                color: #47AFE6 !important;
+                border-bottom: 1px solid #47AFE6;
+                font-weight: 700 !important;
+            }
             li{
+
                 a{
-                    color: #288838 !important;
-                    margin-left: 13px !important;
+                    color: #555555;
+                    font-weight: bold;
+                    margin-left: 13px;
                     &:hover{
-                        color: #FF0000 !important;
+                        color: #000;
+                        background-color: #F7F8F3;
                     }
                 }
-
             }
         }
     }
 }
 
 section.who-are-we{
-    background-color: #DBEEFA;
+    background-color: #F7F8F3;
     margin: 130px 50px 50px;
     padding: 30px;
     h3{
         text-align: center;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: bold;
-        color: #fff;
+        color: #000;
         margin-bottom: 30px;
     }
     p{
+        color: #000;
         font-size: 20px;
         line-height: 160%;
     }
@@ -55,9 +63,9 @@ section.Books{
     padding: 30px;
     h3{
         text-align: center;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: bold;
-        color: #f00;
+        color: #000;
         margin-bottom: 50px;
     }
     .image-boks{
@@ -78,9 +86,9 @@ section.Connect-with-us{
     margin-bottom: 50px;
     h3{
         text-align: center;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: bold;
-        color: #f00;
+        color:#000;;
         margin-bottom: 50px;
     }
     div.map{
@@ -136,6 +144,44 @@ section.Connect-with-us{
                 outline: none !important;
                 border-color: #719ECE;
                 box-shadow: 0 0 10px #719ECE;
+            }
+        }
+    }
+}
+
+footer{
+    background-color: #1F1E1E;
+    padding: 50px;
+    height: 100px;
+    .background{
+        margin-top: -10px;
+        p{
+            clear: both;
+        }
+        #copyright{
+            font-size: 19px;
+            font-weight: bold;
+            color: #868686;
+            float: right;
+        }
+        .social{
+            float: left;
+            a{
+                text-decoration: none;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                color: #f3a741;
+                background-color: #FFFFFF;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                transition: all 0.5s ease;
+                &:hover, 
+                &:focus,
+                &:active{
+                    background-color: #000;
+                }
             }
         }
     }

@@ -16532,6 +16532,9 @@ section.slider a:last-of-type i {
   left: 2%;
   top: calc(45%);
 }
+section.slider .carousel-indicators {
+  bottom: -63px;
+}
 section.slider .carousel-indicators li {
   width: 20px;
   height: 20px;
@@ -16548,6 +16551,11 @@ section.cart {
   padding: 50px;
   margin: 50px 0;
 }
+section.cart label {
+  color: #928886;
+  font-size: 23px;
+  font-weight: bold;
+}
 section.cart table {
   width: 100%;
 }
@@ -16557,10 +16565,12 @@ section.cart table thead td {
   text-align: center;
 }
 section.cart table tbody td {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
   color: #212925;
   text-align: center;
 }
 section.cart table tbody td div img {
+  margin-top: 10px;
   width: 90px;
 }
 
@@ -16611,27 +16621,35 @@ body {
 .navigation nav {
   width: calc(100% - 80px);
 }
+.navigation nav ul li.active a.nav-link {
+  color: #47AFE6 !important;
+  border-bottom: 1px solid #47AFE6;
+  font-weight: 700 !important;
+}
 .navigation nav ul li a {
-  color: #288838 !important;
-  margin-left: 13px !important;
+  color: #555555;
+  font-weight: bold;
+  margin-left: 13px;
 }
 .navigation nav ul li a:hover {
-  color: #FF0000 !important;
+  color: #000;
+  background-color: #F7F8F3;
 }
 
 section.who-are-we {
-  background-color: #DBEEFA;
+  background-color: #F7F8F3;
   margin: 130px 50px 50px;
   padding: 30px;
 }
 section.who-are-we h3 {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
-  color: #fff;
+  color: #000;
   margin-bottom: 30px;
 }
 section.who-are-we p {
+  color: #000;
   font-size: 20px;
   line-height: 160%;
 }
@@ -16642,9 +16660,9 @@ section.Books {
 }
 section.Books h3 {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
-  color: #f00;
+  color: #000;
   margin-bottom: 50px;
 }
 section.Books .image-boks {
@@ -16665,9 +16683,9 @@ section.Connect-with-us {
 }
 section.Connect-with-us h3 {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
-  color: #f00;
+  color: #000;
   margin-bottom: 50px;
 }
 section.Connect-with-us div.map iframe {
@@ -16721,4 +16739,40 @@ section.Connect-with-us form textarea:focus {
   outline: none !important;
   border-color: #719ECE;
   box-shadow: 0 0 10px #719ECE;
+}
+
+footer {
+  background-color: #1F1E1E;
+  padding: 50px;
+  height: 100px;
+}
+footer .background {
+  margin-top: -10px;
+}
+footer .background p {
+  clear: both;
+}
+footer .background #copyright {
+  font-size: 19px;
+  font-weight: bold;
+  color: #868686;
+  float: right;
+}
+footer .background .social {
+  float: left;
+}
+footer .background .social a {
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #f3a741;
+  background-color: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+footer .background .social a:hover, footer .background .social a:focus, footer .background .social a:active {
+  background-color: #000;
 }

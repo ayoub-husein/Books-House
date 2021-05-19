@@ -6,6 +6,7 @@
     <title>العمل الحر</title>
 <script defer src="/javascript/bundle.js"></script><link href="/css/style.css" rel="stylesheet"></head>
 <body>
+    <!-- start navigation -->
     <div class="container-fluid">
         <div class="navigation fixed-top">
             <a href="#" class="logo">
@@ -17,20 +18,23 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">الصفحة الرئيسية</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">الصفحة الرئيسية</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Self-employment.html">العمل الحر</a>
+                        <a class="nav-link" href="/Self-employment.html">العمل الحر</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="User-Experience-UX.html">تجربة المستخدم</a>
+                        <a class="nav-link" href="/User-Experience-UX.html">تجربة المستخدم</a>
                     </li>
                     </ul>
                 </div>
             </nav>
         </div>
     </div>
+    <!-- end navigation -->
+
+    <!-- start description proudct -->
     <div class="container">
         <header>
             <div class="row">
@@ -47,10 +51,19 @@
                         أفضل من الوظيفة بمراحل.                     
                     </p>
                     <hr>
+                    <p>
+                        يبدأ الكتاب بتعريفِ العمل الحرّ، ومجالاتِه، ومُميّزاتهِ وعُيوبِه. ثمّ يُرشِدُكَ إِلى الكيفيّةِ التي
+                        تَبدأُ بِها عملكَ الحُرّ بخطواتٍ بسيطةٍ وسهلةِ التّطبيق. ويُتابِع معك هذِه
+                        الخُطوات خُطوة بخطوة.                    
+                    </p>
+                    <hr>
                 </div>
             </div>
         </header>
     </div>
+    <!-- end description proudct -->
+
+    <!-- start slider -->
     <section class="slider">
         <div class="container">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -79,8 +92,13 @@
             </div>
         </div>
     </section>
+    <!-- end slider -->
+
+    <!-- start order -->
     <section class="cart">
-        <table>
+        <table id="cart">
+            <label for="cart">طلبك</label>
+            <hr>
             <thead>
                 <tr>
                     <td>المنتج</td>
@@ -102,7 +120,11 @@
                 </tr>
             </tbody>
         </table>
+        <hr>
     </section>
+    <!-- end order -->
+    
+    <!-- start form payment -->
     <section class="payment">
         <form>
             <div class="row">
@@ -161,5 +183,28 @@
             </div>
         </form>
     </section>
+    <!-- end form payment -->
+
+    <footer>
+        <div class="background">
+            <div id="copyright">
+            </div>
+            <div class="social">
+                <a href="www.facebook.com">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="www.twitter.com">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="www.linkedin.com">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="www.tiktok.com">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+            </div>
+            <p></p>
+        </div>
+    </footer>
 </body>
 </html>
