@@ -16492,6 +16492,105 @@ a.text-dark:focus, a.text-dark:hover {
 .fa, .fas {
   font-weight: 900;
 }
+header {
+  padding: 50px;
+  margin: 100px 40px;
+}
+header img {
+  width: 100%;
+}
+header .description h3 {
+  color: #868686;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 45px 0 27px;
+}
+header .description p {
+  color: #212925;
+  font-size: 20px;
+}
+
+section.slider {
+  padding: 50px;
+  margin: 20px 0;
+  position: relative;
+  background-color: #F7F8F3;
+}
+section.slider a:first-of-type i {
+  color: #928886;
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  right: 2%;
+  top: calc(45%);
+}
+section.slider a:last-of-type i {
+  color: #928886;
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  left: 2%;
+  top: calc(45%);
+}
+section.slider .carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #0000009e;
+}
+section.slider .carousel-inner .carousel-item img {
+  width: 100%;
+  height: 600px;
+}
+
+section.cart {
+  background-color: #0000001a;
+  padding: 50px;
+  margin: 50px 0;
+}
+section.cart table {
+  width: 100%;
+}
+section.cart table thead td {
+  color: #928886;
+  padding-bottom: 25px;
+  text-align: center;
+}
+section.cart table tbody td {
+  color: #212925;
+  text-align: center;
+}
+section.cart table tbody td div img {
+  width: 90px;
+}
+
+section.payment {
+  padding: 50px;
+  margin: 50px;
+}
+section.payment h4 {
+  color: #868686;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 45px 0 27px;
+}
+section.payment input {
+  color: #928886;
+  text-align: right;
+  width: 100%;
+  border: 1px solid #ebebeb;
+  box-shadow: none;
+  border-radius: 2px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  padding: 6px 16px 7px;
+}
+section.payment input:focus {
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px #719ECE;
+}
+
 @font-face {
   font-family: cairo-font;
   src: url(../fonts/Cairo-Regular.ttf);
@@ -16513,7 +16612,7 @@ body {
   width: calc(100% - 80px);
 }
 .navigation nav ul li a {
-  color: #00ff01 !important;
+  color: #288838 !important;
   margin-left: 13px !important;
 }
 .navigation nav ul li a:hover {

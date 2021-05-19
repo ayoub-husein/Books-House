@@ -74,6 +74,16 @@ module.exports ={
             filename: 'index.html',
         }),
 
+        new HtmlWebpackPlugin({
+            template: './src/Self-employment.html',
+            filename: 'Self-employment.html',
+        }),
+
+        new HtmlWebpackPlugin({
+            template: './src/User-Experience-UX.html',
+            filename: 'User-Experience-UX.html',
+        }),
+
         new MiniCssExtractPlugin({
             filename: 'css/style.css',
         })

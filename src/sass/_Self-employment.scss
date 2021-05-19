@@ -1,0 +1,116 @@
+header{
+    padding: 50px;
+    margin: 100px 40px;
+    img{
+        width: 100%;
+    }
+    .description{
+        h3{
+            color: $text-color;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 45px 0 27px;
+        }
+        p{
+            color: #212925;
+            font-size: 20px;
+        }
+    }
+}
+
+section.slider{
+    padding: 50px;
+    margin: 20px 0;
+    position: relative;
+    background-color: #F7F8F3;
+    a:first-of-type{
+        i{
+            color: #928886;
+            font-size: 50px;
+            font-weight: bold;
+            position: absolute;
+            right: 2%;
+            top: calc(45%);
+        }
+    }
+    a:last-of-type{
+        i{
+            color: #928886;
+            font-size: 50px;
+            font-weight: bold;
+            position: absolute;
+            left: 2%;
+            top: calc(45%);
+        }
+    }
+    .carousel-indicators{
+        li{
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #0000009e;
+        }
+    }
+    .carousel-inner{
+        .carousel-item{
+            img{
+                width: 100%;
+                height: 600px;
+            }
+        }
+    }
+}
+
+section.cart{
+    background-color: #0000001a;
+    padding: 50px;
+    margin: 50px 0;
+    table{
+        width: 100%;
+        thead{
+            td{
+                color: #928886;
+                padding-bottom: 25px;
+                text-align: center;
+            }
+        }
+        tbody{
+            td{
+                color: #212925;
+                text-align: center;
+                div{
+                    img{
+                        width: 90px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+section.payment{
+    padding: 50px;
+    margin: 50px;
+    h4{
+        color: $text-color;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 45px 0 27px;
+    }
+    input{
+        color: #928886;
+        text-align: right;
+        width: 100%;
+        border: 1px solid #ebebeb;
+        box-shadow: none;
+        border-radius: 2px;
+        font-size: 14px;
+        transition: all .3s ease;
+        padding: 6px 16px 7px;
+        &:focus{
+            outline: none !important;
+            border-color: #719ECE;
+            box-shadow: 0 0 10px #719ECE;
+        }
+    }
+}

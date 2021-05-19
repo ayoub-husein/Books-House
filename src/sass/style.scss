@@ -1,4 +1,6 @@
-@import './variable';
+@import './_variable.scss';
+@import './_Self-employment.scss';
+@import './_User-Experience-UX.scss';
 @font-face {
     font-family: cairo-font;
     src: url(../fonts/Cairo-Regular.ttf);
@@ -19,7 +21,7 @@ body{
         ul{
             li{
                 a{
-                    color: #00ff01 !important;
+                    color: #288838 !important;
                     margin-left: 13px !important;
                     &:hover{
                         color: #FF0000 !important;
