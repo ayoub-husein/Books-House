@@ -72,7 +72,7 @@ module.exports ={
         port: 9801,
         writeToDisk: true,
         stats: 'errors-only',
-        // open: true,
+        open: true,
     },
     
     plugins: [
