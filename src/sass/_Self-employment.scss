@@ -91,6 +91,22 @@ section.cart{
                         width: 90px;
                     }
                 }
+                a{
+                    i{
+                        color: $paragraph-1-color;
+                        border: 1px solid rgba(0, 0, 0, 0.1);
+                        padding: 10px;
+                        border-radius: 3px;
+                        background-color: #fff;
+                        transition: all 0.5s ease;
+                        &:hover, 
+                        &:focus,
+                        &:active{
+                            background-color: #00000021;
+                            color: #2EA4E2;
+                        }
+                    }
+                }
             }
         }
     }

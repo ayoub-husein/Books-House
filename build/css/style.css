@@ -16573,6 +16573,18 @@ section.cart table tbody td div img {
   margin-top: 10px;
   width: 90px;
 }
+section.cart table tbody td a i {
+  color: #000000;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+section.cart table tbody td a i:hover, section.cart table tbody td a i:focus, section.cart table tbody td a i:active {
+  background-color: #00000021;
+  color: #2EA4E2;
+}
 
 section.payment {
   padding: 50px;
@@ -16630,6 +16642,13 @@ section.payment input:focus {
 
 .paragraph-User-Experience-UX {
   color: #333131;
+}
+
+.cart-User-Experience-UX {
+  color: #333131;
+}
+.cart-User-Experience-UX:hover, .cart-User-Experience-UX:focus, .cart-User-Experience-UX:active {
+  color: #80401A !important;
 }
 
 @font-face {

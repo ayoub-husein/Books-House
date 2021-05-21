@@ -1,6 +1,7 @@
 @import './_variable.scss';
 @import './_Self-employment.scss';
 @import './_User-Experience-UX.scss';
+@import './_shopping-cart.scss';
 @font-face {
     font-family: cairo-font;
     src: url(../fonts/Cairo-Regular.ttf);
@@ -76,8 +77,8 @@ section.Books{
             width: 45%;
             img{
                 width: 100%;
-            }    
-        }
+            }  
+        }  
     }
 }
 

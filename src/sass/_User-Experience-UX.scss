@@ -6,3 +6,12 @@
     color: $paragraph-2-color;
 }
 
+.cart-User-Experience-UX{
+    color: $paragraph-2-color;
+    &:hover, 
+    &:focus,
+    &:active{
+        color: $header-2-color !important;
+    }
+}
+

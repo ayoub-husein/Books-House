@@ -92,6 +92,11 @@ module.exports ={
             filename: 'User-Experience-UX.html',
         }),
 
+        new HtmlWebpackPlugin({
+            template: './src/shopping-cart.html',
+            filename: 'shopping-cart.html',
+        }),
+
         new MiniCssExtractPlugin({
             filename: 'css/style.css',
         }),

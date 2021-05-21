@@ -6,7 +6,6 @@
     <title>تجربة المستخدم</title>
 </head>
 <body>
-
     <!-- start navigation -->
     <div class="container-fluid">
         <div class="navigation fixed-top">
@@ -108,6 +107,7 @@
                     <td class="header-User-Experience-UX">المنتج</td>
                     <td class="header-User-Experience-UX">الأسم</td>
                     <td class="header-User-Experience-UX">السعر</td>
+                    <td class="header-User-Experience-UX">إضافة للعربة</td>
                 </tr>
             </thead>
             <tbody>
@@ -121,6 +121,11 @@
                     <td>
                         <div>20$</div>
                     </td>
+                    <td>
+                        <a href="shopping-cart.html" type="button" data-toggle="tooltip" data-placement="bottom"  title="إضافة للعربة">
+                            <i class="fas fa-shopping-cart cart-User-Experience-UX"></i>
+                        </a>
+                    </td>
                 </tr>
             </tbody>
         </table>
@@ -128,67 +133,6 @@
     </section>
     <!-- end order -->
     
-    <!-- start form payment -->
-    <section class="payment">
-        <form action="#">
-            <div class="row">
-                <div class="col-md-6">
-                    <h4 class="header-User-Experience-UX">بياناتك الشخصية</h4>
-                    <div class="row">
-                        <div class="col-md-6 form-group ">
-                            <input type="text" name="first-name" placeholder="الأسم الأول" required>
-                        </div>
-                        <div class="col-md-6 form-group">
-                            <input type="text" name="second-name" placeholder="الأسم الثاني" required>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 form-group">
-                            <input type="email" name="email" placeholder="البريد الألكتروني" required>
-                        </div>
-                        <div class="col-md-6 form-group">
-                            <input type="text" name="area" placeholder="المنطقة" required>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 form-group">
-                            <input type="text" name="country" placeholder="الدولة" required>
-                        </div>
-                        <div class="col-md-6 form-group">
-                            <input type="text" name="sity" placeholder="المدينة" required>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 form-group">
-                            <input type="tel" name="tellephon" placeholder="رقم التلفون" required>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <h4 class="header-User-Experience-UX">بيانات الدفع</h4>
-                    <div class="row">
-                        <div class="col-md-6 form-group">
-                            <input type="number" placeholder="رقم البطاقة" name="credit_card_number" required>
-                        </div>
-                        <div class="col-md-6 form-group">
-                            <input type="number" placeholder="شهر الانتهاء" name="credit_card_month" min="1" max="12" required>
-                        </div>
-                        <div class="col-md-6 form-group">
-                            <input type="number" placeholder="سنة الانتهاء" name="credit_card_year" min="2021" max="2030" required>
-                        </div>
-                        <div class="col-md-6 form-group">
-                            <input type="number" placeholder="cvv" name="credit_card_cvv" required>
-                        </div>
-                        <div class="col-md-6 form-group">
-                            <button type="submit" class="btn btn-success">إرسال</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </form>
-    </section>
-    <!-- end form payment -->
-
     <footer>
         <div class="background">
             <div id="copyright">
@@ -210,6 +154,5 @@
             <p></p>
         </div>
     </footer>
-
 </body>
 </html>
