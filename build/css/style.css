@@ -16530,7 +16530,7 @@ section.slider a:last-of-type i {
   font-weight: bold;
   position: absolute;
   left: 2%;
-  top: calc(45%);
+  top: 45%;
 }
 section.slider .carousel-indicators {
   bottom: -63px;
