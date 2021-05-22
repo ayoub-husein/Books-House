@@ -16788,10 +16788,7 @@ section.Connect-with-us div i {
   margin-left: 6px;
   margin-top: 15px;
 }
-section.Connect-with-us form .col-md-6 {
-  padding-left: 15px;
-}
-section.Connect-with-us form .col-md-6 input {
+section.Connect-with-us form input {
   width: 100%;
   margin-left: 3px;
   text-align: right;
@@ -16803,7 +16800,7 @@ section.Connect-with-us form .col-md-6 input {
   padding: 6px 16px 7px;
   color: #868686;
 }
-section.Connect-with-us form .col-md-6 input:focus {
+section.Connect-with-us form input:focus {
   outline: none !important;
   border-color: #719ece;
   box-shadow: 0 0 10px #719ece;
@@ -16874,7 +16871,7 @@ footer .background .social a:hover, footer .background .social a:focus, footer .
 }
 @media (max-width: 768px) {
   section.Books h3 {
-    margin-bottom: 22px;
+    margin-bottom: 35px;
   }
 
   section.Books {
