@@ -156,18 +156,17 @@ footer {
     padding: 50px;
     height: 100px;
     .background {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         margin-top: -10px;
-        p {
-            clear: both;
-        }
         #copyright {
             font-size: 19px;
             font-weight: bold;
             color: $paragraph-color-main;
-            float: right;
+
         }
         .social {
-            float: left;
             a {
                 text-decoration: none;
                 display: inline-flex;
@@ -243,7 +242,7 @@ footer {
     footer {
         .background {
             #copyright {
-                font-size: 14px;
+                font-size: 15px;
             }
             .social {
                 a {

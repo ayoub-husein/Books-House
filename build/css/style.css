@@ -16596,10 +16596,6 @@ section.cart table tbody td a i:hover, section.cart table tbody td a i:focus, se
     padding: 0px;
     margin: 120px 40px;
   }
-
-  footer .background #copyright {
-    margin-top: 4px;
-  }
 }
 @media (max-width: 991.5px) {
   section.slider .carousel-inner .carousel-item img {
@@ -16830,19 +16826,15 @@ footer {
   height: 100px;
 }
 footer .background {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-top: -10px;
-}
-footer .background p {
-  clear: both;
 }
 footer .background #copyright {
   font-size: 19px;
   font-weight: bold;
   color: #868686;
-  float: right;
-}
-footer .background .social {
-  float: left;
 }
 footer .background .social a {
   text-decoration: none;
@@ -16908,7 +16900,7 @@ footer .background .social a:hover, footer .background .social a:focus, footer .
 }
 @media (max-width: 575.5px) {
   footer .background #copyright {
-    font-size: 14px;
+    font-size: 15px;
   }
   footer .background .social a {
     width: 30px;
