@@ -1,9 +1,15 @@
-$header-color-main:#000000;
-$paragraph-color-main:#868686;
+$header-color-main: #000000;
+$paragraph-color-main: #868686;
 
-$header-1-color:#2DA3E2;
-$paragraph-1-color:#000000;
+$header-1-color: #2da3e2;
+$paragraph-1-color: $header-color-main;
 
-$header-2-color:#80401A;
-$paragraph-2-color:#333131;
+$header-2-color: #80401a;
+$paragraph-2-color: #333131;
 
+$icon-color-1: $paragraph-1-color;
+$icon-background-color-1: #33313147;
+$icon-color-hover-1: $header-1-color;
+
+$icon-color-2: $paragraph-2-color;
+$icon-color-hover-2: $header-2-color;

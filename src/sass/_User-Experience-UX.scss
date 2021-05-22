@@ -1,17 +1,9 @@
-.header-User-Experience-UX{
-    color: $header-2-color !important;
+.header-User-Experience-UX {
+    @include text-header-pargraph($header-2-color !important);
 }
-
-.paragraph-User-Experience-UX{
-    color: $paragraph-2-color;
+.paragraph-User-Experience-UX {
+    @include text-header-pargraph($paragraph-2-color !important);
 }
-
-.cart-User-Experience-UX{
-    color: $paragraph-2-color;
-    &:hover, 
-    &:focus,
-    &:active{
-        color: $header-2-color !important;
-    }
+.cart-User-Experience-UX {
+    @include icon-color($icon-color-2 !important, $icon-background-color-1, $icon-color-hover-2 !important);
 }
-

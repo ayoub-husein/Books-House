@@ -1,39 +1,39 @@
-@import './_variable.scss';
-@import './_Self-employment.scss';
-@import './_User-Experience-UX.scss';
-@import './_shopping-cart.scss';
+@import "./variable";
+@import "./mixins";
+@import "./Self-employment";
+@import "./User-Experience-UX";
+@import "./shopping-cart";
 @font-face {
     font-family: cairo-font;
     src: url(../fonts/Cairo-Regular.ttf);
 }
-body{
+body {
     font-family: "cairo-font";
 }
-.navigation{
+.navigation {
     display: flex;
-    a.logo{
+    a.logo {
         width: 80px;
-        img{
+        img {
             height: 80px;
         }
     }
-    nav{
+    nav {
         width: calc(100% - 80px);
-        ul{
-            li.active a.nav-link{
-                color: #47AFE6 !important;
-                border-bottom: 1px solid #47AFE6;
+        ul {
+            li.active a.nav-link {
+                color: #47afe6 !important;
+                border-bottom: 1px solid #47afe6;
                 font-weight: 700 !important;
             }
-            li{
-
-                a{
+            li {
+                a {
                     color: #555555;
                     font-weight: bold;
                     margin-left: 13px;
-                    &:hover{
+                    &:hover {
                         color: $header-color-main;
-                        background-color: #F7F8F3;
+                        background-color: #f7f8f3;
                     }
                 }
             }
@@ -41,95 +41,95 @@ body{
     }
 }
 
-section.who-are-we{
-    background-color: #F7F8F3;
+section.who-are-we {
+    background-color: #f7f8f3;
     margin: 130px 50px 50px;
     padding: 30px;
-    h3{
+    h3 {
         text-align: center;
         font-size: 30px;
         font-weight: bold;
         color: $header-color-main;
         margin-bottom: 30px;
     }
-    p{
+    p {
         color: $paragraph-color-main;
         font-size: 20px;
         line-height: 160%;
     }
 }
 
-section.Books{
+section.Books {
     margin: 50px;
     padding: 30px;
-    h3{
+    h3 {
         text-align: center;
         font-size: 30px;
         font-weight: bold;
         color: $header-color-main;
         margin-bottom: 50px;
     }
-    .image-boks{
+    .image-boks {
         display: flex;
         padding: 10px;
         justify-content: space-evenly;
-        a{
+        a {
             width: 45%;
-            img{
+            img {
                 width: 100%;
-            }  
-        }  
+            }
+        }
     }
 }
 
-section.Connect-with-us{
+section.Connect-with-us {
     padding: 50px;
     margin-bottom: 50px;
-    h3{
+    h3 {
         text-align: center;
         font-size: 30px;
         font-weight: bold;
-        color:$header-color-main;
+        color: $header-color-main;
         margin-bottom: 50px;
     }
-    div.map{
-        iframe{
+    div.map {
+        iframe {
             width: 100%;
             height: 200px;
             margin-bottom: 30px;
         }
     }
-    h4{
+    h4 {
         font-size: 17px;
         color: $header-color-main;
         font-weight: bold;
     }
-    div{
+    div {
         color: #212529;
-        i{
+        i {
             color: #f3a741;
             margin-left: 6px;
             margin-top: 15px;
         }
     }
-    form{
-        input{
+    form {
+        input {
             width: 40%;
             margin-left: 3px;
             border: 1px solid #ebebeb;
             box-shadow: none;
             border-radius: 2px;
             font-size: 14px;
-            transition: all .3s ease;
+            transition: all 0.3s ease;
             padding: 6px 16px 7px;
             color: $paragraph-color-main;
-            &:focus{
+            &:focus {
                 outline: none !important;
-                border-color: #719ECE;
-                box-shadow: 0 0 10px #719ECE;
+                border-color: #719ece;
+                box-shadow: 0 0 10px #719ece;
             }
         }
-        textarea{
+        textarea {
             width: 81%;
             height: 100px;
             margin-top: 15px;
@@ -138,49 +138,49 @@ section.Connect-with-us{
             box-shadow: none;
             border-radius: 2px;
             font-size: 14px;
-            transition: all .3s ease;
+            transition: all 0.3s ease;
             padding: 6px 16px 7px;
             color: $paragraph-color-main;
-            &:focus{
+            &:focus {
                 outline: none !important;
-                border-color: #719ECE;
-                box-shadow: 0 0 10px #719ECE;
+                border-color: #719ece;
+                box-shadow: 0 0 10px #719ece;
             }
         }
     }
 }
 
-footer{
-    background-color: #1F1E1E;
+footer {
+    background-color: #1f1e1e;
     padding: 50px;
     height: 100px;
-    .background{
+    .background {
         margin-top: -10px;
-        p{
+        p {
             clear: both;
         }
-        #copyright{
+        #copyright {
             font-size: 19px;
             font-weight: bold;
             color: $paragraph-color-main;
             float: right;
         }
-        .social{
+        .social {
             float: left;
-            a{
+            a {
                 text-decoration: none;
                 display: inline-flex;
                 justify-content: center;
                 align-items: center;
                 color: #f3a741;
-                background-color: #FFFFFF;
+                background-color: #ffffff;
                 width: 40px;
                 height: 40px;
                 border-radius: 50%;
                 transition: all 0.5s ease;
-                &:hover, 
+                &:hover,
                 &:focus,
-                &:active{
+                &:active {
                     background-color: $header-color-main;
                 }
             }
@@ -198,16 +198,16 @@ footer{
 }
 
 @media (max-width: 768px) {
-    section.Books h3{
+    section.Books h3 {
         margin-bottom: 22px;
     }
     section.Books {
         margin: -22px;
     }
-    section.Connect-with-us h4.message{
+    section.Connect-with-us h4.message {
         margin-top: 30px;
     }
-    section.Connect-with-us{
+    section.Connect-with-us {
         margin-bottom: 0;
     }
 }
@@ -218,4 +218,3 @@ footer{
         margin-top: 9px;
     }
 }
-

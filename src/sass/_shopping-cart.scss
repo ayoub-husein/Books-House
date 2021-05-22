@@ -1,13 +1,13 @@
-section.payment{
+section.payment {
     padding: 50px;
     margin: 50px;
-    h4{
+    h4 {
         color: $header-1-color;
         font-size: 20px;
         font-weight: bold;
         margin: 45px 0 27px;
     }
-    input{
+    input {
         color: $paragraph-1-color;
         text-align: right;
         width: 100%;
@@ -15,12 +15,12 @@ section.payment{
         box-shadow: none;
         border-radius: 2px;
         font-size: 14px;
-        transition: all .3s ease;
+        transition: all 0.3s ease;
         padding: 6px 16px 7px;
-        &:focus{
+        &:focus {
             outline: none !important;
-            border-color: #719ECE;
-            box-shadow: 0 0 10px #719ECE;
+            border-color: #719ece;
+            box-shadow: 0 0 10px #719ece;
         }
     }
 }

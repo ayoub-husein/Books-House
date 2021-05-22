@@ -16500,7 +16500,7 @@ header img {
   width: 100%;
 }
 header .description h3 {
-  color: #2DA3E2;
+  color: #2da3e2;
   font-size: 20px;
   font-weight: bold;
   margin: 45px 0 27px;
@@ -16514,7 +16514,7 @@ section.slider {
   padding: 50px;
   margin: 20px 0;
   position: relative;
-  background-color: #F7F8F3;
+  background-color: #f7f8f3;
 }
 section.slider a:first-of-type i {
   color: #928886;
@@ -16542,9 +16542,9 @@ section.slider .carousel-indicators li {
   background-color: #0000009e;
 }
 section.slider .carousel-inner .carousel-item img {
-  width: 50%;
-  height: 600px;
-  margin-right: 25%;
+  width: 40%;
+  height: 400px;
+  margin-right: 30%;
 }
 
 section.cart {
@@ -16553,7 +16553,7 @@ section.cart {
   margin: 50px 0;
 }
 section.cart label {
-  color: #2DA3E2;
+  color: #2da3e2;
   font-size: 23px;
   font-weight: bold;
 }
@@ -16561,7 +16561,7 @@ section.cart table {
   width: 100%;
 }
 section.cart table thead td {
-  color: #2DA3E2;
+  color: #2da3e2;
   padding-bottom: 25px;
   text-align: center;
 }
@@ -16583,8 +16583,8 @@ section.cart table tbody td a i {
   transition: all 0.5s ease;
 }
 section.cart table tbody td a i:hover, section.cart table tbody td a i:focus, section.cart table tbody td a i:active {
-  background-color: #00000021;
-  color: #2EA4E2;
+  background-color: #33313147;
+  color: #2da3e2;
 }
 
 @media (max-width: 1199.5px) {
@@ -16603,7 +16603,7 @@ section.cart table tbody td a i:hover, section.cart table tbody td a i:focus, se
 }
 @media (max-width: 991.5px) {
   section.slider .carousel-inner .carousel-item img {
-    height: 500px;
+    height: 400px;
     margin-right: 20%;
     width: 60%;
   }
@@ -16618,7 +16618,7 @@ section.cart table tbody td a i:hover, section.cart table tbody td a i:focus, se
   }
 
   section.slider .carousel-inner .carousel-item img {
-    height: 550px;
+    height: 350px;
     margin-right: 15%;
     width: 70%;
   }
@@ -16630,24 +16630,30 @@ section.cart table tbody td a i:hover, section.cart table tbody td a i:focus, se
   }
 
   section.slider .carousel-inner .carousel-item img {
-    height: 500px;
-    width: 80%;
-    margin-right: 10%;
+    height: 300px;
+    width: 60%;
+    margin-right: 20%;
   }
 }
 .header-User-Experience-UX {
-  color: #80401A !important;
+  color: #80401a !important;
 }
 
 .paragraph-User-Experience-UX {
-  color: #333131;
+  color: #333131 !important;
 }
 
 .cart-User-Experience-UX {
-  color: #333131;
+  color: #333131 !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #fff;
+  transition: all 0.5s ease;
 }
 .cart-User-Experience-UX:hover, .cart-User-Experience-UX:focus, .cart-User-Experience-UX:active {
-  color: #80401A !important;
+  background-color: #33313147;
+  color: #80401a !important;
 }
 
 section.payment {
@@ -16655,7 +16661,7 @@ section.payment {
   margin: 50px;
 }
 section.payment h4 {
-  color: #2DA3E2;
+  color: #2da3e2;
   font-size: 20px;
   font-weight: bold;
   margin: 45px 0 27px;
@@ -16673,8 +16679,8 @@ section.payment input {
 }
 section.payment input:focus {
   outline: none !important;
-  border-color: #719ECE;
-  box-shadow: 0 0 10px #719ECE;
+  border-color: #719ece;
+  box-shadow: 0 0 10px #719ece;
 }
 
 @font-face {
@@ -16698,8 +16704,8 @@ body {
   width: calc(100% - 80px);
 }
 .navigation nav ul li.active a.nav-link {
-  color: #47AFE6 !important;
-  border-bottom: 1px solid #47AFE6;
+  color: #47afe6 !important;
+  border-bottom: 1px solid #47afe6;
   font-weight: 700 !important;
 }
 .navigation nav ul li a {
@@ -16709,11 +16715,11 @@ body {
 }
 .navigation nav ul li a:hover {
   color: #000000;
-  background-color: #F7F8F3;
+  background-color: #f7f8f3;
 }
 
 section.who-are-we {
-  background-color: #F7F8F3;
+  background-color: #f7f8f3;
   margin: 130px 50px 50px;
   padding: 30px;
 }
@@ -16795,8 +16801,8 @@ section.Connect-with-us form input {
 }
 section.Connect-with-us form input:focus {
   outline: none !important;
-  border-color: #719ECE;
-  box-shadow: 0 0 10px #719ECE;
+  border-color: #719ece;
+  box-shadow: 0 0 10px #719ece;
 }
 section.Connect-with-us form textarea {
   width: 81%;
@@ -16813,12 +16819,12 @@ section.Connect-with-us form textarea {
 }
 section.Connect-with-us form textarea:focus {
   outline: none !important;
-  border-color: #719ECE;
-  box-shadow: 0 0 10px #719ECE;
+  border-color: #719ece;
+  box-shadow: 0 0 10px #719ece;
 }
 
 footer {
-  background-color: #1F1E1E;
+  background-color: #1f1e1e;
   padding: 50px;
   height: 100px;
 }
@@ -16843,7 +16849,7 @@ footer .background .social a {
   justify-content: center;
   align-items: center;
   color: #f3a741;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 40px;
   height: 40px;
   border-radius: 50%;
