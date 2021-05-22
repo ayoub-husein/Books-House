@@ -113,21 +113,24 @@ section.Connect-with-us {
         }
     }
     form {
-        input {
-            width: 100%;
-            margin-left: 3px;
-            text-align: right;
-            border: 1px solid #ebebeb;
-            box-shadow: none;
-            border-radius: 2px;
-            font-size: 14px;
-            transition: all 0.3s ease;
-            padding: 6px 16px 7px;
-            color: $paragraph-color-main;
-            &:focus {
-                outline: none !important;
-                border-color: #719ece;
-                box-shadow: 0 0 10px #719ece;
+        .col-md-6 {
+            padding-left: 15px;
+            input {
+                width: 100%;
+                margin-left: 3px;
+                text-align: right;
+                border: 1px solid #ebebeb;
+                box-shadow: none;
+                border-radius: 2px;
+                font-size: 14px;
+                transition: all 0.3s ease;
+                padding: 6px 16px 7px;
+                color: $paragraph-color-main;
+                &:focus {
+                    outline: none !important;
+                    border-color: #719ece;
+                    box-shadow: 0 0 10px #719ece;
+                }
             }
         }
         textarea {
