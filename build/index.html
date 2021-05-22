@@ -84,8 +84,14 @@
                     <h4 class="message">إترك رسالة لنا</h4>
                     <hr>
                     <form>
-                        <input type="text" name="name" placeholder="الاسم" required>
-                        <input type="email" name="email" placeholder="البريد الألكتروني" required>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input class="form-control" type="text" name="name" placeholder="الاسم" required>
+                            </div> 
+                            <div class="col-md-6">
+                                <input class="form-control" type="email" name="email" placeholder="البريد الألكتروني" required>
+                            </div>
+                        </div>
                         <div>
                             <textarea name="message" placeholder="نص الرسالة" required></textarea>
                         </div>

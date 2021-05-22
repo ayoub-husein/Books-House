@@ -16789,8 +16789,9 @@ section.Connect-with-us div i {
   margin-top: 15px;
 }
 section.Connect-with-us form input {
-  width: 40%;
+  width: 100%;
   margin-left: 3px;
+  text-align: right;
   border: 1px solid #ebebeb;
   box-shadow: none;
   border-radius: 2px;
@@ -16805,7 +16806,7 @@ section.Connect-with-us form input:focus {
   box-shadow: 0 0 10px #719ece;
 }
 section.Connect-with-us form textarea {
-  width: 81%;
+  width: 100%;
   height: 100px;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -16884,10 +16885,34 @@ footer .background .social a:hover, footer .background .social a:focus, footer .
   section.Connect-with-us {
     margin-bottom: 0;
   }
+
+  section.Connect-with-us form input {
+    margin-top: 10px;
+  }
+
+  section.Books .image-boks {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  section.Books .image-boks a {
+    width: 75%;
+  }
+  section.Books .image-boks a img {
+    width: 100%;
+  }
+  section.Books .image-boks a:last-child img {
+    margin-top: 60px;
+  }
 }
 @media (max-width: 575.5px) {
   footer .background #copyright {
-    font-size: 13px;
-    margin-top: 9px;
+    font-size: 14px;
+  }
+  footer .background .social a {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
   }
 }

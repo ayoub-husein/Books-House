@@ -114,8 +114,9 @@ section.Connect-with-us {
     }
     form {
         input {
-            width: 40%;
+            width: 100%;
             margin-left: 3px;
+            text-align: right;
             border: 1px solid #ebebeb;
             box-shadow: none;
             border-radius: 2px;
@@ -130,7 +131,7 @@ section.Connect-with-us {
             }
         }
         textarea {
-            width: 81%;
+            width: 100%;
             height: 100px;
             margin-top: 15px;
             margin-bottom: 15px;
@@ -210,11 +211,47 @@ footer {
     section.Connect-with-us {
         margin-bottom: 0;
     }
+    section.Connect-with-us {
+        form {
+            input {
+                margin-top: 10px;
+            }
+        }
+    }
+    section.Books {
+        .image-boks {
+            display: flex;
+            padding: 10px;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            a {
+                width: 75%;
+                img {
+                    width: 100%;
+                }
+            }
+            a:last-child {
+                img {
+                    margin-top: 60px;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 575.5px) {
-    footer .background #copyright {
-        font-size: 13px;
-        margin-top: 9px;
+    footer {
+        .background {
+            #copyright {
+                font-size: 14px;
+            }
+            .social {
+                a {
+                    width: 30px;
+                    height: 30px;
+                    font-size: 14px;
+                }
+            }
+        }
     }
 }
